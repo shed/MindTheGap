@@ -15,7 +15,7 @@ try:
     st.dataframe(df)
     
     # Show summary statistics
-    st.write("Summary Statistics:")
+    st.write("Summary Statistics: ")
     st.write(df.describe())
 except FileNotFoundError:
     st.error("File csv not found in the current directory. Please ensure the file exists.")
